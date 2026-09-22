@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E7CB8"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewPytanie"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zad1" />
+
+    <TextView
+        android:id="@+id/textViewPytanie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="Które to schronisko?"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupOdpowiedzi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioOdpowiedz1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#FFFFFF"
+            android:paddingStart="8dp"
+            android:text="Na Rysiance."
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioOdpowiedz2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#FFFFFF"
+            android:paddingStart="8dp"
+            android:text="Na Wielkiej Raczy."
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radioOdpowiedz3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#FFFFFF"
+            android:paddingStart="8dp"
+            android:text="Na Wielkiej Rycerzowej."
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonDalej"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#6A1B9A"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:text="DALEJ"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
